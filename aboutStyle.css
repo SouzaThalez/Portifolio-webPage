@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+.head-section {
+  width: 980px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  display: flex;
+  align-items: baseline;
+}
+#page-name {
+  font-family: "Comforter Brush", cursive;
+}
+.menu-nav {
+  position: sticky;
+  top: 0;
+  margin-left: 35px;
+}
+#bar-line {
+  width: 980px;
+  margin: auto;
+  margin-top: 30px;
+}
+#main-menu-list {
+  width: 200px;
+  margin: auto;
+  margin-top: 20px;
+  list-style: none;
+  display: flex;
+}
+#main-menu-list li {
+  margin: 10px;
+}
+#main-menu-list li a {
+  margin: 10px;
+  text-decoration: none;
+  color: black;
+}
+.panel {
+  margin-top: 30px;
+}
+.grid-container {
+  display: grid;
+  width: 980px;
+  margin: auto;
+  grid-template-columns: auto auto; /*number of colums */
+  grid-template-rows: 400px; /* height of the firs row*/
+}
+.colums {
+  position: relative;
+}
+.boxes {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  left: 30px;
+  bottom: 100px;
+}
+.boxes.left {
+  background-image: url(/imgs/thales.jpg);
+  background-size: 100%;
+}
+.picture-text {
+  position: absolute;
+  bottom: -40px;
+}
+.content {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+.img-container {
+  background-color: rgb(223, 148, 148);
+  width: 290px;
+  height: 340px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+img {
+  margin-left: 30px;
+  margin-top: 10px;
+}
+.footer {
+  width: 980px;
+  margin: auto;
+  margin-top: 20px;
+  padding-bottom: 50px;
+}
+.footer-content {
+  text-align: center;
+}
