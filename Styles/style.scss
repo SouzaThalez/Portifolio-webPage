@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #ffffff;
+}
+
+#page-name {
+  font-family: "Comforter Brush", cursive;
+}
+@import "./header";
+@import "./footer";
+@import "./variables";
+
+#bar-line {
+  width: 980px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.panel {
+  margin-top: 30px;
+}
+.grid-container {
+  display: grid;
+  width: 980px;
+  margin: auto;
+  grid-template-columns: auto auto; /*number of colums */
+  grid-template-rows: 400px; /* height of the firs row*/
+}
+.colums {
+  /*border: 2px solid green;*/
+}
+.content {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+.img-container {
+  background-color: rgb(223, 148, 148);
+  width: 290px;
+  height: 340px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+img {
+  width: 100%;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 10px;
+}

@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(255, 255, 255);
+}
+@import "./header";
+@import "./footer";
+@import "./variables";
+
+#page-name {
+  font-family: "Comforter Brush", cursive;
+}
+
+#bar-line {
+  width: 980px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.panel {
+  margin-top: 30px;
+}
+.grid-container {
+  display: grid;
+  width: 980px;
+  margin: auto;
+  grid-template-columns: auto auto; /*number of colums */
+  grid-template-rows: 400px; /* height of the firs row*/
+}
+.colums {
+  position: relative;
+}
+.boxes {
+  position: absolute;
+  top: 40px;
+  right: 100px;
+  left: 30px;
+  bottom: 100px;
+}
+.boxes.left {
+  background-image: url(/imgs/thales.jpg);
+  background-size: 100%;
+}
+.picture-text {
+  position: absolute;
+  bottom: -40px;
+}
+.content {
+  width: 350px;
+  margin: auto;
+  margin-top: 30px;
+}
+.img-container {
+  background-color: rgb(223, 148, 148);
+  width: 290px;
+  height: 340px;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+img {
+  margin-left: 30px;
+  margin-top: 10px;
+}
