@@ -29,6 +29,10 @@ body {
   margin-left: 35px;
 }
 
+#page-name {
+  font-family: "Comforter Brush", cursive;
+}
+
 #main-menu-list {
   width: 200px;
   margin: auto;
@@ -49,6 +53,10 @@ body {
   color: black;
 }
 
+#footer-title {
+  font-family: "Comforter Brush", cursive;
+}
+
 .footer {
   width: 980px;
   margin: auto;
@@ -58,6 +66,30 @@ body {
 
 .footer-content {
   text-align: center;
+}
+
+.social-media-links {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.social-media-links .links {
+  padding: 10px;
+}
+
+.social-media-links .links a {
+  text-decoration: none;
+  color: black;
+}
+
+.social-media-links .links a:hover {
+  color: #ad3737;
+  text-transform: uppercase;
 }
 
 #page-name {
@@ -107,6 +139,12 @@ body {
 .picture-text {
   position: absolute;
   bottom: -40px;
+}
+
+.about-paragraph {
+  letter-spacing: 3px;
+  text-align: center;
+  line-height: 1.2;
 }
 
 .content {
