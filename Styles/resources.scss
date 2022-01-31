@@ -39,6 +39,10 @@ body {
   margin: auto;
   margin-top: 30px;
 }
+.libraries-titles a:hover {
+  color: rgb(173, 55, 55);
+  text-transform: uppercase;
+}
 .libraries-titles a {
   margin-left: 30px;
   margin-top: 10px;
