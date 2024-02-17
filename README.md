@@ -40,11 +40,11 @@ Here's the steps:
  ## Preview
  This is what the Gmail applicaton looks like
 
-![Application layout](images/pimg1.png)
+![Application layout](imgs/pimg1.png)
 
 Sources page layout
-![Application layout](images/pimg2.png)
+![Application layout](imgs/pimg2.png)
 
 About page layout
-![Application layout](images/pimg3.png)
+![Application layout](imgs/pimg3.png)
 
