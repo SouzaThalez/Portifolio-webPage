@@ -38,13 +38,15 @@ Here's the steps:
   http-server
 ```
  ## Preview
- This is what the Gmail applicaton looks like
+ This is what the **Portfolio webpage** looks like
 
 ![Application layout](imgs/pimg1.png)
 
 Sources page layout
+
 ![Application layout](imgs/pimg2.png)
 
 About page layout
+
 ![Application layout](imgs/pimg3.png)
 
