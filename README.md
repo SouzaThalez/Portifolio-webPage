@@ -25,7 +25,7 @@ This project is public, if you want to use it on your computer is totaly free!
 Here's the steps: 
 * Clone the repository by copying its HTTPS URL or just copy this line
 ```bash
-  https://github.com/SouzaThalez/gmail-application.git
+  https://github.com/SouzaThalez/Portifolio-webPage.git
 ```
 * Run the project using you prefer IDE. I recommend using Visual Studio Code
 * Once inside the project make sure node.js is installed on your computer, if you don't have it, download it here: [Download node.js](https://nodejs.org/en/download)
