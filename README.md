@@ -9,7 +9,7 @@ Vanila JavaScript CSS and SCSS.
 
 ## Features and functionality 
 
-Personal website for content display.It has three main pages: Works , Sources and About.
+Personal website for content display.It has three main pages:
 * Works - Completed personal projects page. Here a list all of my completed projects
 * Sources - Main tecnologies learned. Here i list all of the libraries, laguages and frameworks i have worked with.
 * About - Brief information about me and my hobbies.
